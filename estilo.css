@@ -1,0 +1,86 @@
+@font-face{
+    font-family: NewGotRm;
+    src:url(Fuente/NewGotRm.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: NewGotRm;
+    font-size: 35px;
+}
+.contenedor{
+    /*width: 1920px;*/
+    width: 1920px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 79px;
+    background-color:#FCDD09;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+header a{
+    font-size: 35px;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+.cuerpo{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.lateral{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.lateral a{
+    font-size: 35px;
+    padding: 5px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+.lateral a:hover{
+    background-color: aquamarine;
+}
+.info{
+    width: 1158px;
+}
+
+#btnRuta{
+    width: 100%;
+    text-align: end;
+    padding:30px 0px;
+}
+#btnRuta button{
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+    background-color: #FCDD09;
+    border: none;
+    border-radius: 10px;
+}
+.mapa{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.mapa iframe{
+    width: 100%;   
+    height:600px;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    overflow-y: hidden;
+    visibility: visible;
+}
+footer{
+    height: 363px;
+    background-color: #2D2702;
+}
